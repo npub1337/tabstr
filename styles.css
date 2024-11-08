@@ -1,0 +1,102 @@
+/* Atualização para um estilo retrô */
+body {
+    background-color: #1c1c1c;
+    /* Fundo escuro para visual mais antigo */
+    font-family: 'JetBrains Mono', monospace;
+    color: #b2b2b2;
+    /* Texto cinza claro */
+}
+
+/* Links e botões */
+.navbar-brand,
+.nav-link,
+.card-title a,
+.footer-link {
+    color: #50fa7b !important;
+    /* Verde mais suave */
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #333;
+    /* Navbar mais escura */
+}
+
+.navbar-brand,
+.nav-link:hover {
+    color: #3fa45f !important;
+    /* Verde mais escuro ao passar o mouse */
+}
+
+/* Botões */
+.btn-outline-light,
+.btn-light {
+    color: #50fa7b !important;
+    border-color: #50fa7b !important;
+    background-color: transparent !important;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-outline-light:hover,
+.btn-light:hover {
+    background-color: #3fa45f !important;
+    color: #fff !important;
+    border-color: #3fa45f !important;
+}
+
+/* Cartões e layout */
+.card {
+    background-color: #2a2a2a;
+    border: 1px solid #444;
+}
+
+.card-title a {
+    color: #50fa7b;
+}
+
+.card-body span,
+.meta-info span {
+    color: #b2b2b2;
+}
+
+/* Sidebar e rodapé */
+footer {
+    background-color: #1c1c1c;
+    color: #5e5e5e;
+}
+
+.footer-link:hover {
+    color: #3fa45f;
+}
+
+/* Alterações de header para remover efeito moderno */
+header .navbar-toggler {
+    border: none;
+}
+
+header .navbar-toggler-icon {
+    background-color: #50fa7b;
+}
+
+a {
+    color: #50fa7b !important;
+}
+
+a:hover {
+    color: #3fa45f !important;
+}
+
+/* Títulos dos cards */
+.card-title {
+    color: #50fa7b !important;
+}
+
+/* Top users e trending */
+.trending-tags .tag,
+.user-item .username {
+    color: #50fa7b !important;
+}
+
+.user-item .score {
+    color: #b2b2b2;
+}
